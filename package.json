@@ -1,6 +1,9 @@
 {
   "name": "button-001",
   "version": "1.0.0",
+  "homepage": "https://github.com/omprakash8788/thank-you-tweet-button-001/blob/main/README.md",
+  "licenses": "MIT",
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/omprakash8788/thank-you-tweet-button-001"
@@ -9,7 +12,7 @@
     "url": "https://github.com/omprakash8788/thank-you-tweet-button-001",
     "email": "omprakashkumar552@gmail.com"
   },
-  "description": "",
+  "description": "Easy-to-use tweet button for saying thank you to @omprakash8788",
   "main": "dist/cjs/tweetButton.js",
   "module": "dist/esm/tweetButton.js",
   "types": "dist/esm/tweetButton.d.ts",
@@ -20,8 +23,13 @@
   "build:esm": "tsc",
   "build:cjs": "tsc --module commonjs --outDir dist/cjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["tweet", "twitter", "button", "thank you", "thanks"],
+  "author":{
+   "name": "omprakash kumar",
+   "email": "omprakashkumar552@gmail.com",
+   "url": "https://github.com/omprakash8788/thank-you-tweet-button-001"
+  },
+
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
