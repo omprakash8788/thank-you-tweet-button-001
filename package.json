@@ -16,6 +16,7 @@
   "main": "dist/cjs/tweetButton.js",
   "module": "dist/esm/tweetButton.js",
   "types": "dist/esm/tweetButton.d.ts",
+  "files": ["dist/"],
   "scripts": {
  "test": "jest --config jest.config.ts",
   "prepare": "husky",
