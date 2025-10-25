@@ -12,6 +12,7 @@
   "description": "",
   "main": "dist/cjs/tweetButton.js",
   "module": "dist/esm/tweetButton.js",
+  "types": "dist/esm/tweetButton.d.ts",
   "scripts": {
  "test": "jest --config jest.config.ts",
   "prepare": "husky",
