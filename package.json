@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "homepage": "https://github.com/omprakash8788/thank-you-tweet-button-001/blob/main/README.md",
   "licenses": "MIT",
-  
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/omprakash8788/thank-you-tweet-button-001"
@@ -16,21 +18,28 @@
   "main": "dist/cjs/tweetButton.js",
   "module": "dist/esm/tweetButton.js",
   "types": "dist/esm/tweetButton.d.ts",
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
- "test": "jest --config jest.config.ts",
-  "prepare": "husky",
-  "build": "rimraf dist && npm run build:esm && npm run build:cjs",
-  "build:esm": "tsc",
-  "build:cjs": "tsc --module commonjs --outDir dist/cjs"
+    "test": "jest --config jest.config.ts",
+    "prepare": "husky",
+    "build": "rimraf dist && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
   },
-  "keywords": ["tweet", "twitter", "button", "thank you", "thanks"],
-  "author":{
-   "name": "omprakash kumar",
-   "email": "omprakashkumar552@gmail.com",
-   "url": "https://github.com/omprakash8788/thank-you-tweet-button-001"
+  "keywords": [
+    "tweet",
+    "twitter",
+    "button",
+    "thank you",
+    "thanks"
+  ],
+  "author": {
+    "name": "omprakash kumar",
+    "email": "omprakashkumar552@gmail.com",
+    "url": "https://github.com/omprakash8788/thank-you-tweet-button-001"
   },
-
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
