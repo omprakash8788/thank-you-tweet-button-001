@@ -12,7 +12,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config jest.config.ts"
+    "test": "jest --config jest.config.ts",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,9 @@
   "type": "commonjs",
   "devDependencies": {
     "@babel/preset-env": "^7.27.1",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "husky": "^9.1.7",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "ts-jest": "^29.3.2",
