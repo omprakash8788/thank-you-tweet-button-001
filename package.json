@@ -1,6 +1,11 @@
 {
   "name": "button-001",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "release-it": {
+    "git":{
+      "commitMessage":"chore: release v${version}"
+    }
+  },
   "homepage": "https://github.com/omprakash8788/thank-you-tweet-button-001/blob/main/README.md",
   "licenses": "MIT",
   "publishConfig": {
@@ -22,7 +27,7 @@
     "dist/"
   ],
   "scripts": {
-    "release":"release-it",
+    "release": "release-it",
     "test": "jest --config jest.config.ts",
     "prepare": "husky",
     "build": "rimraf dist && npm run build:esm && npm run build:cjs",
