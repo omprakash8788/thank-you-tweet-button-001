@@ -1,9 +1,9 @@
 {
   "name": "button-001",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "release-it": {
-    "git":{
-      "commitMessage":"chore: release v${version}"
+    "git": {
+      "commitMessage": "chore: release v${version}"
     }
   },
   "homepage": "https://github.com/omprakash8788/thank-you-tweet-button-001/blob/main/README.md",
