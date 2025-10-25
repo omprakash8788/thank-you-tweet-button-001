@@ -1,6 +1,14 @@
 {
   "name": "button-001",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omprakash8788/thank-you-tweet-button-001"
+  },
+  "bugs": {
+    "url": "https://github.com/omprakash8788/thank-you-tweet-button-001",
+    "email": "omprakashkumar552@gmail.com"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
