@@ -6,7 +6,8 @@ export function tweetButton(){
 
     
     const tweetUrl =
-  "https://twitter.com/intent/tweet?text=Thank+you,+%40oluwatobiss.+Your+book+helped+me+create,+test,+and+publish+an+NPM+package.%0A%0ACreating%20NPM%20Package%0A%0Ahttps%3A%2F%2Fgithub.com%2Fomprakash8788%2Fthank-you-tweet-button-001";
+     "https://twitter.com/intent/tweet?text=https%3A%2F%2Fgithub.com%2Fomprakash8788%2Fbutton-001"
+
 
 
     tweetButtonContainer.setAttribute("id", "tweet-btn-container");
